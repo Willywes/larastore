@@ -16,7 +16,8 @@
     "extra": {
         "laravel": {
            "providers" : [
-               "Willywes\\Larastore\\Providers\\LarastoreServiceProvider"
+               "Willywes\\Larastore\\Providers\\LarastoreServiceProvider",
+               "Willywes\\Larastore\\Providers\\RouteServiceProvider"
            ]
         }
     },

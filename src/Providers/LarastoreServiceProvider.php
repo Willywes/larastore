@@ -27,9 +27,9 @@ class LarastoreServiceProvider extends ServiceProvider
         // migrations
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         //routes
-        $this->loadRoutesFrom(__DIR__."/../routes/api.php");
-        $this->loadRoutesFrom(__DIR__."/../routes/backoffice.php");
-        $this->loadRoutesFrom(__DIR__."/../routes/web.php");
+//        $this->loadRoutesFrom(__DIR__."/../routes/api.php");
+//        $this->loadRoutesFrom(__DIR__."/../routes/backoffice.php");
+//        $this->loadRoutesFrom(__DIR__."/../routes/web.php");
 
         //views
         $this->loadViewsFrom(__DIR__."/../resources/views", "Larastore");
