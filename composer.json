@@ -1,0 +1,29 @@
+{
+    "name": "willywes/larastore",
+    "description": "Store with laravel architecture",
+    "type": "project",
+    "require": {
+        "php" : ">=7.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Willywes\\Larastore\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Willywes\\Larastore\\Tests\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "willywes",
+            "email": "willywes@hotmail.cl"
+        }
+    ],
+    "minimum-stability": "dev"
+}
