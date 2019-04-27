@@ -1,7 +1,7 @@
 {
     "name": "willywes/larastore",
     "description": "Store with laravel architecture",
-    "type": "project",
+    "type": "core",
     "require": {
         "php" : ">=7.1.3"
     },
