@@ -13,9 +13,11 @@
             "Willywes\\Larastore\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Willywes\\Larastore\\Tests\\": "tests"
+    "extra": {
+        "laravel": {
+           "providers" : [
+               "Willywes\\Larastore\\Providers\\LarastoreServiceProvider"
+           ]
         }
     },
     "license": "MIT",
