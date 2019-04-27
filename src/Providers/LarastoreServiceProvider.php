@@ -32,8 +32,11 @@ class LarastoreServiceProvider extends ServiceProvider
 //        $this->loadRoutesFrom(__DIR__."/../routes/web.php");
 
         //views
-        $this->loadViewsFrom(__DIR__."/../resources/views", "Larastore");
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'Larastore');
 
 
+        // public
+        $this->publishes([__DIR__.'/../resources/assets' => public_path('larastore'),
+        ], 'public');
     }
 }

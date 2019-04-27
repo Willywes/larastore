@@ -28,5 +28,13 @@
             "email": "willywes@hotmail.cl"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish --tag=public --force"
+        ],
+        "post-update-cmd": [
+            "php artisan vendor:publish --tag=public --force"
+        ],
+    },
 }
